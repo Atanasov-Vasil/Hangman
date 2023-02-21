@@ -115,9 +115,10 @@ while play_coming:
         print(f"You did it in {initial_attempts - attempts} attempts.")
         wins += 1
 
+    print(f"The score is {wins}:{loses}")
     print("Do you want to play again?")
     play_again = input("Press (y) for Yes or (n) for No: ")
     if play_again == 'n':
+        print(f"Final score: Wins: {wins}, Losses: {loses}")
         print("Bye, bye!")
-        print(f"Wins: {wins}, Losses: {loses}")
         play_coming = False
