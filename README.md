@@ -17,4 +17,4 @@ b. It is not in the word. It is counted as a mistake.
   If attempts are still more than mistakes, the player is informed how many more attempts he or she has, and the current status of the word is printed.
 If the player opens all the letters, he or she is congratulated.
 
-After the game is finished, no matter with win or lose, there's an option for the player to play again ffor the beginning, including to choose the difficulty level. If he or she decides not to play, a statistics for wins vs loses is printed.
+After the game is finished, no matter with win or lose, there's an option for the player to play again ffor the beginning, including to choose the difficulty level. If he or she decides not to play, statistics for wins vs loses is printed.
