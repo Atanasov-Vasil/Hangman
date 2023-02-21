@@ -89,6 +89,7 @@ while play_coming:
                     print(f"The word was: {word}.")
                     loses += 1
                     is_lost = True
+                    break
                 else:
                     print(f"You have {attempts} attempts remaining.")
                     print(current_output)
