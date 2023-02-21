@@ -73,7 +73,7 @@ while play_coming:
 
     while letters_set:
         letter = input("Please, choose a letter ")
-        if not letter.isalpha():
+        if not letter.isalpha() or len(letter)>1:
             print("This is not a letter.")
             print("------------------")
         elif letter in letters_until_now:
